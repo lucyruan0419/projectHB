@@ -165,6 +165,7 @@ $('document').ready(function(){
 	});
 	
 	$('#story').click(function(){
+		var audio = $('.song')[0];
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
