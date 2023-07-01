@@ -13,6 +13,9 @@ body {
 }
 .peach {
 	background-image: url('bg.jpg');
+	background-position-x: 25%;
+	background-attachment: fixed;
+	background-size: cover;
 	
 }
 .peach-after {
