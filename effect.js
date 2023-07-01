@@ -179,7 +179,10 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
-				});
+					 // Turn off the song here
+					 audio.pause();
+                     audio.currentTime = 0; // Reset the audio to the beginning
+                });
 				
 			}
 			else{
